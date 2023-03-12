@@ -39,6 +39,8 @@ export const addTodoAsync = createAsyncThunk(
     if (resp.ok) {
       const todo = await resp.json();
       return { todo };
+    } else {
+      toast.error("It was a error adding task to list");
     }
   }
 );

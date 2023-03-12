@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTodoAsync } from "../../redux/todoSlice";
 import { Button } from "react-bootstrap";
+import { toast } from "react-toastify";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 
@@ -19,6 +20,8 @@ export const TodoForm = () => {
           checked: false
 				})
 			);
+		} else {
+			toast.warning("Please provide a value task");
 		};
 	};
 
