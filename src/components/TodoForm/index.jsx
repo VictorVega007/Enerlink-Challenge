@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { useDispatch } from 'react-redux';
-import { addTodoAsync } from '../../redux/todoSlice';
-import { Button } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { useDispatch } from "react-redux";
+import { addTodoAsync } from "../../redux/todoSlice";
+import { Button } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 
 export const TodoForm = () => {
@@ -19,7 +19,7 @@ export const TodoForm = () => {
           checked: false
 				})
 			);
-		}
+		};
 	};
 
 	return (

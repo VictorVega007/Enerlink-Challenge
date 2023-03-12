@@ -1,7 +1,7 @@
 import TodoList from "./components/TodoList";
 import TodoResults from "./components/TodoResults";
 import "./App.css";
-import { TodoForm } from "components/TodoForm/TodoForm";
+import { TodoForm } from "components/TodoForm";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

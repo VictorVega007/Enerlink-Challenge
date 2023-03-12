@@ -1,6 +1,5 @@
 import { useEffect } from "react";  
 import { useDispatch, useSelector } from "react-redux";
-import { toast } from "react-toastify";
 import { getTodosAsync } from "../../redux/todoSlice";
 import TodoListItem from "../TodoListItem/index";
 import "./styles.css";
